@@ -8,7 +8,7 @@ var computerChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
 
 console.log(computerChoice);
 
-// User guesses by pressing a key,
+// What happens when user presses a key...
 
 document.onkeypress = function (){
     var playerGuess = event.key;
@@ -32,3 +32,5 @@ console.log(guesses)
 console.log(computerChoice)
 
 }
+
+// =======================
